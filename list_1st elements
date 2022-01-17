@@ -1,0 +1,22 @@
+a=[[2,0,4],[6,5,3],[9,8,7]]
+i=0
+c=[]
+while i<len(a):
+    j=0
+    b=[]
+    while j<len(a):
+        b.append(a[j][i])
+        j+=1
+    i+=1
+    c.append(b)
+print(c)
+
+
+# a=[[2,0,4],[6,5,3],[9,8,7]]
+# l=[]
+# for i in range(0,len(a)):
+#     l_s=[]
+#     for j in range(0,len(a)):
+#         l_s.append(a[j][i])
+#     l.append(l_s)
+# print(l)
